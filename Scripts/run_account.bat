@@ -17,4 +17,4 @@ mklink /H %ze_link% %ze_account_dat%
 :: if we have a problem with the link, exit. We don't want to start the game without Local.dat (or it would create one as well as gfxsettings and ruin your settings)
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-%gw2_path%\Gw2-64.exe -autologin
+start "" %gw2_path%\Gw2-64.exe -autologin
