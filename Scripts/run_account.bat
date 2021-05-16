@@ -2,7 +2,7 @@ set arg1=%1
 set ze_base_dat="%APPDATA%\Guild Wars 2\Local.base.dat"
 set ze_account_dat="%APPDATA%\Guild Wars 2\Local.%arg1%.dat"
 set ze_link="%APPDATA%\Guild Wars 2\Local.dat"
-set gw2_path="C:\Program Files\Guild Wars 2"
+set gw2_path="D:\Games\ArenaNet\Guild Wars 2"
 
 :: create the account-specific dat if needed
 if not exist %ze_account_dat% (
